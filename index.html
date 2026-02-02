@@ -3,38 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple website">
-    <title>My Website</title>
+    <meta name="description" content="Marvel Cinematic Universe Fan Portfolio - Exploring the Epic Saga">
+    <title>Marvel Universe Hub | Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <h1>My Website</h1>
+            <div class="site-title">Marvel Universe Hub</div>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About MCU</a></li>
+                <li><a href="projects.html">Heroes Gallery</a></li>
+                <li><a href="blog.html">MCU Blog</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="home">
-            <h2>Welcome</h2>
-            <p>This is a simple HTML/CSS website.</p>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <img src="images/Infinity war.png" alt="Marvel Avengers Infinity War poster featuring all heroes assembled" class="hero-image">
+            <div class="hero-content">
+                <h1>Welcome to the Marvel Cinematic Universe</h1>
+                <p class="tagline">Experience the greatest superhero saga ever told</p>
+            </div>
         </section>
 
-        <section id="about">
-            <h2>About</h2>
-            <p>Add your content here.</p>
+        <!-- Welcome Section -->
+        <section id="welcome">
+            <h2>Enter the MCU</h2>
+            <p>Welcome to my personal tribute to the <em>Marvel Cinematic Universe</em>! As a devoted fan since the first Iron Man film, I've created this space to celebrate the incredible storytelling, character development, and spectacular action that defines the MCU.</p>
+            <p>From Tony Stark's journey in a cave to the epic conclusion of the Infinity Saga, the Marvel Cinematic Universe has <em>redefined</em> modern cinema. This website showcases my favorite heroes, moments, and the interconnected storylines that make this franchise <em>truly special</em>.</p>
+
+            <h3>What You'll Find Here:</h3>
+            <ul>
+                <li>Comprehensive information about the MCU phases and storylines</li>
+                <li>Character profiles of iconic heroes like Iron Man, Captain America, and Thor</li>
+                <li>Timeline of major events in the Infinity Saga</li>
+                <li>Gallery of memorable moments from the films</li>
+                <li>Personal reviews and favorite scenes from each movie</li>
+                <li>Easter eggs and connections throughout the MCU</li>
+            </ul>
         </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Get in touch with us.</p>
+        <hr>
+
+        <!-- Featured Heroes Section -->
+        <section id="featured-heroes">
+            <h2>Featured Heroes</h2>
+            <p>The heart of the MCU lies in its incredible characters. Here are some of the founding Avengers who started it all:</p>
+
+            <div class="hero-grid">
+                <div class="hero-card">
+                    <img src="images/ironman.png" alt="Iron Man in his iconic red and gold armor suit">
+                    <h3>Iron Man</h3>
+                    <p>Tony Stark - The genius billionaire who started it all</p>
+                </div>
+
+                <div class="hero-card">
+                    <img src="images/captain.png" alt="Captain America with his vibranium shield">
+                    <h3>Captain America</h3>
+                    <p>Steve Rogers - The First Avenger and symbol of hope</p>
+                </div>
+
+                <div class="hero-card">
+                    <img src="images/thor.png" alt="Thor the God of Thunder wielding Mjolnir">
+                    <h3>Thor</h3>
+                    <p>God of Thunder - Prince of Asgard and mighty warrior</p>
+                </div>
+            </div>
+
+            <img src="images/cap, thor and ironman.png" alt="Captain America, Thor, and Iron Man standing together as the original Avengers trio" class="trinity-image">
         </section>
+
+        <!-- Video Section -->
+        <section id="video-showcase">
+            <h2>The Epic Saga &#127909;</h2>
+            <p>Experience the visual journey of the MCU through this cinematic showcase:</p>
+            <div class="video-container-html5">
+                <video controls poster="images/Infinity war.png">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="video-note"><em>Note:</em> This is a placeholder video for demonstration. In a real project, you would host MCU-related content here.</p>
+                <p class="video-link">&#128279; <strong>Want to watch MCU content?</strong> <a href="https://youtu.be/TWB31WFomz4" target="_blank" rel="noopener noreferrer">Watch MCU Tribute on YouTube &#8594;</a></p>
+            </div>
+        </section>
+
+        <!-- Audio Section -->
+        <section id="audio-showcase">
+            <h2>Iconic MCU Theme &#127926;</h2>
+            <p>Listen to the legendary Avengers theme &mdash; a musical masterpiece that has become synonymous with heroism &amp; epic storytelling:</p>
+            <div class="audio-container">
+                <audio controls>
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="audio-note"><em>Note:</em> Due to copyright, this is a placeholder. The actual Avengers theme &copy; Marvel Studios &reg;</p>
+            </div>
+        </section>
+
+        <!-- Recent Updates Section -->
+        <section id="recent-updates">
+            <h2>Recent Updates</h2>
+            <img src="images/war.png" alt="Marvel heroes assembled for battle in an epic war scene" class="update-image">
+            <h3>Latest MCU News:</h3>
+            <ul>
+                <li>New Phase 5 films continue to expand the multiverse</li>
+                <li>Character crossovers bringing fan-favorite heroes together</li>
+                <li>Disney+ series diving deeper into character backstories</li>
+                <li>Upcoming Avengers films promising to unite the new generation</li>
+            </ul>
+            <p><strong>Fun Fact:</strong> The MCU is the highest-grossing film franchise of all time, with over $29 billion in worldwide box office revenue!</p>
+        </section>
+
+        <!-- Aside Sidebar -->
+        <aside>
+            <h2>Quick MCU Facts</h2>
+            <div class="fact-box">
+                <h3>Did You Know?</h3>
+                <ul>
+                    <li>The MCU began in 2008 with Iron Man</li>
+                    <li>There are 33+ films in the franchise</li>
+                    <li>Stan Lee had cameos in almost every MCU film</li>
+                    <li>The Infinity Saga took 11 years to complete</li>
+                    <li>Avengers: Endgame is one of the highest-grossing films ever</li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <h3>Explore More</h3>
+                <ul>
+                    <li><a href="about.html">Learn About MCU Phases</a></li>
+                    <li><a href="projects.html">View Hero Profiles</a></li>
+                    <li><a href="about.html#infinity-saga-timeline">See Timeline</a></li>
+                    <li><a href="blog.html">Read MCU Blog &#128240;</a></li>
+                </ul>
+            </div>
+        </aside>
     </main>
 
+    <footer>
+        <p>&copy; 2026 Marvel Universe Hub<br>
+        A fan tribute site<br>
+        All Marvel characters and content are property of Marvel Studios and Disney</p>
+        <p>Created with <em>passion</em> by a dedicated MCU fan</p>
+    </footer>
 </body>
 </html>
